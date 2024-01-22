@@ -1,5 +1,6 @@
 // my routes
 const express = require('express');
+const jwt = require('jsonwebtoken');
 const appController = require('../controllers/appController'); 
 const router = express.Router();
 

@@ -1,1 +1,7 @@
 node_module/
+build/
+coverage/
+dist/
+tmp/
+.env
+npm-debug.log

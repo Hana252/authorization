@@ -6,6 +6,7 @@ const router = express.Router();
 
 // Register a new user
 // a route, with POST request that expects a username, email, and password in the request body
+//
 router.post('/register', async (req, res) => {
     const { username, email, password } = req.body;
     const result = await appController.registerUser(username, email, password);

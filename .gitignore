@@ -1,7 +1,8 @@
 node_module/
-build/
-coverage/
-dist/
-tmp/
 .env
-npm-debug.log
+# build/
+# coverage/
+# dist/
+# tmp/
+
+# npm-debug.log
